@@ -184,7 +184,7 @@
 
 The remote repository is actually a repository located on the server. It can store our version history remotely and enable multiple people to collaborate on the project simultaneously. Everyone can synchronize others' versions and view others' version submissions, which is equivalent to hosting our code on the server for management.
 
-+++
+
 
 ### Remote account authentication and push notifications
 
@@ -199,7 +199,7 @@ The remote repository is actually a repository located on the server. It can sto
 
 ### A once-and-for-all connection method
 
-* 我们可以在本地生成一个rsa公钥
+* We can generate an RSA public key locally.
 
   * ```
     ssh-keygen -t rsa
