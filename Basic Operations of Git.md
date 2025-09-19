@@ -240,4 +240,3 @@ The remote repository is actually a repository located on the server. It can sto
   git pull [remote repository] # Pull: Retrieve + Merge
   ```
 
-* 
