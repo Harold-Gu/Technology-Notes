@@ -3,15 +3,15 @@
 Given an unsorted integer array nums, find the length of the longest consecutive sequence (the sequence elements do not have to be consecutive in the original array). 
 Please design and implement an algorithm with a time complexity of O(n) to solve this problem.
 
-* Input: nums = [100,4,200,1,3,2]
-  Output: 4
-  Explanation: The longest consecutive sequence is [1, 2, 3, 4]. Its length is 4. 
-  Example 2: 
-  Input: nums = [0,3,7,2,5,8,4,6,0,1]
-  Output: 9
-  Example 3: 
-  Input: nums = [1, 0, 1, 2]
-  Output: 3
+* Input: nums = [100,4,200,1,3,2]  
+  Output: 4  
+  Explanation: The longest consecutive sequence is [1, 2, 3, 4]. Its length is 4.   
+  Example 2:   
+  Input: nums = [0,3,7,2,5,8,4,6 ,0,1]  
+  Output: 9  
+  Example 3:   
+  Input: nums = [1, 0, 1, 2]  
+  Output: 3  
 
 ## Answers
 
@@ -75,4 +75,5 @@ class Solution:
 
         return longest_streak
 ```
+
 
